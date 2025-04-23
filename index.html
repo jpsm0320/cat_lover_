@@ -1,0 +1,71 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatLovers</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <h1>CatLovers</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="login-link">Entrar</a></li>
+                <li><a href="tipos.html">Tipos</a></li>
+                <li><a href="origens.html">Origens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia">
+            <h2>Nossa História</h2>
+            <p>Bem-vindo à CatLovers, a loja virtual criada por amantes de gatos para amantes de gatos! Nossa jornada
+                começou
+                com a paixão por felinos e o desejo de oferecer produtos e informações de alta qualidade para garantir o
+                bem-estar e a felicidade dos seus bichanos.</p>
+            <p>Desde a nossa fundação, temos nos dedicado a selecionar os melhores produtos do mercado, desde rações
+                premium e brinquedos interativos até acessórios confortáveis e estilosos. Trabalhamos com marcas
+                renomadas e fornecedores confiáveis para garantir a segurança e a durabilidade de cada item que
+                oferecemos.
+            </p>
+            <p>Na CatLovers, acreditamos que cada gato é único e merece cuidados especiais. Por isso, além de produtos,
+                oferecemos artigos informativos, dicas de saúde e comportamento felino, e um espaço para compartilhar
+                histórias e experiências com outros apaixonados por gatos.</p>
+            <p>Junte-se à nossa comunidade e descubra tudo o que a CatLovers tem a oferecer para você e seu felino!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CatLovers. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Modal de Login -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Entrar</h2>
+            <form id="login-form">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "config.js": "./config.js"
+            }
+        }
+    </script>
+</body>
+
+</html>
